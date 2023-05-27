@@ -4,10 +4,12 @@
 mod variables;
 mod data_types;
 mod functions;
+mod control_flow;
 
 fn main() {
     //then call the function inside using ::funcName()
     //variables::explain();
     //data_types::explain();
-    functions::explain();
+    //functions::explain();
+    control_flow::explain();
 }
