@@ -26,7 +26,8 @@ pub fn explain() /* explain_if_else_elseif */ {
     //it's just every other language but you don't need the parentheses (&& and || still exist)
     //Rust doesn't typecast conditions (NO TRUTHY/FALSY) - condition must return true or false
 
-    //Using if for let assignments
+    //Using if for let assignments (let if assignments)
+    //NOT TO BE CONFUSED WITH if let STATEMENTS
     let coolness_level: u8 = if response == THE_MEANING_OF_LIFE {255} else {100};
 
     //IS THE SAME AS:

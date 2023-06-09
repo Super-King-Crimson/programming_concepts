@@ -1,5 +1,5 @@
 #![allow(unused)]
-const YOULL_UNDERSTAND_WHY_THIS_IS_HERE_LATER: f32 = 55.55; //did you know 55555 is 'lol' in Thai?
+const YOULL_UNDERSTAND_WHY_THIS_IS_HERE_LATER: f32 = 55.5; //did you know 555 is 'lol' in Thai?
 
 pub fn explain() {
     //let is the variable definition keyword, name convention is lower_snake_case

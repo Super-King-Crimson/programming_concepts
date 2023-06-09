@@ -38,7 +38,7 @@ fn explain_statements_and_expressions(num: i32) {
     //Everything inside a function's squiggly brackets is its BODY.
     //Rust function bodies are made up of some statements, and can end in an expression.
 
-    //These are statements. They perform multiplcation with num, and don't return anything.
+    //These are statements. They perform multiplcation with num, assing it to the vars and don't return anything.
     let square = num * num;
     let random_multiply = num * rand::thread_rng().gen_range(1..=num);
     /*
@@ -64,7 +64,5 @@ fn explain_statements_and_expressions(num: i32) {
 
 //function return values must be specified
 fn explain_return() -> f64 {
-    //Don't put a semicolon or it'll break 
     3.14159
-    //if you do it won't return anything because it's a statement, but it's supposed to return a f64 
 }
