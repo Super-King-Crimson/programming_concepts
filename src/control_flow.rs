@@ -28,11 +28,10 @@ pub fn explain() /* explain_if_else_elseif */ {
 
     //Using if for let assignments (let if assignments)
     //NOT TO BE CONFUSED WITH if let STATEMENTS
-    let coolness_level: u8 = if response == THE_MEANING_OF_LIFE {255} else {100};
+    let coolness_level: u8 = if response == THE_MEANING_OF_LIFE { 255 } else { 100 };
 
     //IS THE SAME AS:
-
-    //also you don't need the mut keyword here: coolness_level is only assigned to once
+    
     let coolness_level: u8; 
     if response == THE_MEANING_OF_LIFE {
         coolness_level = 255;

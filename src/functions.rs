@@ -46,13 +46,14 @@ fn explain_statements_and_expressions(num: i32) {
 
     //let some_var = (let square = num * num);
 
-    This isn't valid syntax, because the assignment to square doesn't return a value to give some_var
+    This isn't valid syntax, because the assignment to square doesn't return a value to give some_var, so it's like:
+    let some_var = 
     */
 
     //The curly braces part of the assignment is an expression. It evaluates, and produces a value.
     let abstract_subtract = {
         let some_var = square - random_multiply;
-        some_var - 5
+        some_var - 5 //here's the value that's returned
     };
     //Calling a function, a macro, or creating a new scope block are all expressions.
     //Note that the last line of the curly braces doesn't have a semicolon:
@@ -64,5 +65,5 @@ fn explain_statements_and_expressions(num: i32) {
 
 //function return values must be specified
 fn explain_return() -> f64 {
-    3.14159
+    3.141592653589793
 }
